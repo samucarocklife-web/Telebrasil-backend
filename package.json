@@ -1,0 +1,22 @@
+{
+  "name": "telabrasil-backend",
+  "version": "1.0.0",
+  "description": "Proxy server + API de canais para o TelaBrasil",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "fast-xml-parser": "^4.3.4",
+    "http-proxy-middleware": "^2.0.6",
+    "node-cache": "^5.1.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
